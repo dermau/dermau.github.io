@@ -34,7 +34,7 @@ img {
 }
 
 .content-outer {
-    background: #fff;
+    background: #eaeaea;
 }
 
 /* page title */
@@ -53,7 +53,8 @@ img {
 }
 
 #page-title h1 span,
-#page-title a {
+
+#page-title a {
     color: #11ABB0;
 }
 
@@ -298,7 +299,8 @@ ul#nav li a:active {
 }
 
 ul#nav li:hover > a,
-ul#nav li.current a {
+
+ul#nav li.current a {
     color: #fff;
 }
 
@@ -394,13 +396,16 @@ ul#nav ul li a {
 /* ------------------------------------------------------------------ */
 /* Reset */
 .flexslider a:active,
-.flexslider a:focus {
+
+.flexslider a:focus {
     outline: none;
 }
 
 .slides,
-.flex-control-nav,
-.flex-direction-nav {
+
+.flex-control-nav,
+
+.flex-direction-nav {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -441,7 +446,8 @@ ul#nav ul li a {
 
 /* Clearfix for .slides */
 .slides:before,
-.slides:after {
+
+.slides:after {
     content: " ";
     display: table;
 }
@@ -479,7 +485,8 @@ ul#nav ul li a {
 }
 
 .slider-text h1 span,
-.slider-text a {
+
+.slider-text a {
     color: #11ABB0;
 }
 
@@ -544,7 +551,8 @@ ul#nav ul li a {
 }
 
 .flexslider:hover .flex-next,
-.flexslider:hover .flex-prev {
+
+.flexslider:hover .flex-prev {
     opacity: 1;
 }
 
@@ -795,7 +803,8 @@ ul#nav ul li a {
 }
 
 #journal .entry .post-meta time,
-#journal .entry .post-meta .dauthor {
+
+#journal .entry .post-meta .dauthor {
     display: block;
 }
 
@@ -855,7 +864,8 @@ ul#nav ul li a {
 }
 
 #call-to-action .button:hover,
-#call-to-action .button:active {
+
+#call-to-action .button:active {
     background: #E4E2E2;
     color: #3b4043;
 }
@@ -928,12 +938,14 @@ ul#nav ul li a {
 }
 
 .post .entry-header h1 a,
-.post .entry-header h1 a:visited {
+
+.post .entry-header h1 a:visited {
     color: #313131;
 }
 
 .post .entry-header h1 a:hover,
-.post .entry-header h1 a:focus {
+
+.post .entry-header h1 a:focus {
     color: #11ABB0;
 }
 
@@ -942,12 +954,14 @@ ul#nav ul li a {
 }
 
 .post .post-meta a,
-.post .post-meta a:visited {
+
+.post .post-meta a:visited {
     color: #AFB4BB;
 }
 
 .post .post-meta a:hover,
-.post .post-meta a:focus {
+
+.post .post-meta a:focus {
     color: #11ABB0;
 }
 
@@ -1159,8 +1173,10 @@ ol.commentlist {
 }
 
 #comments form input,
-#comments form textarea,
-#comments form select {
+
+#comments form textarea,
+
+#comments form select {
     width: 58.33333%;
     float: left;
 }
@@ -1311,8 +1327,10 @@ ol.commentlist {
 }
 
 #contact-form input,
-#contact-form textarea,
-#contact-form select {
+
+#contact-form textarea,
+
+#contact-form select {
     width: 100% !important;
     min-width: none;
     margin-bottom: 12px;
@@ -1329,7 +1347,8 @@ ol.commentlist {
 }
 
 #message-warning,
-#message-success {
+
+#message-success {
     display: none;
     background: #383232;
     padding: 24px 24px;
@@ -1346,7 +1365,8 @@ ol.commentlist {
 }
 
 #message-warning i,
-#message-success i {
+
+#message-success i {
     margin-right: 10px;
 }
 
