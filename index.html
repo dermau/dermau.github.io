@@ -27,7 +27,14 @@
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.ico" > 
+    <link rel="shortcut icon" href="favicon.ico" > 
+    
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("header.html"); 
+    });
+    </script>
 
 </head>
 
@@ -37,7 +44,7 @@
    ================================================== -->
    <header>
 
-      <?php include('header.php'); ?>
+        <div id="includedContent"></div>
 
    </header> <!-- Header End -->
 
